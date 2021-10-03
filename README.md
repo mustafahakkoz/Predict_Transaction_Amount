@@ -27,9 +27,9 @@ Implementation details can be found in notebooks.
 
 3. a. [RandomizedSearch with XGBoost](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-xgboost)  
    b. [RandomizedSearch with CatBoost](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-catboost)  
-   c. [RandomizedSearchwith XGBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-xgboost-expanded)  
-   d. [RandomizedSearchwith CatBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-catboost-expanded)  
-   e. [RandomizedSearchwith LightGBM (Expanded search space)](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-lightgbm-expanded)
+   c. [RandomizedSearch with XGBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-xgboost-expanded)  
+   d. [RandomizedSearch with CatBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-catboost-expanded)  
+   e. [RandomizedSearch with LightGBM (Expanded search space)](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-lightgbm-expanded)
 
 4. a. [BayesianOptimization with XGBoost](https://www.kaggle.com/hakkoz/isbankasi-bayesianoptimization-xgboost/)  
    b. [BayesianOptimization with XGBoost (Expanded search space)](https://www.kaggle.com/areukolateamleader/isbankasi-bayesianoptimization-xgboost-expanded)
