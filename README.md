@@ -1,4 +1,4 @@
-# Türkiye İş Bankası Machine Learning Challenge #2
+# Predict Transaction Amount
 
 A submission for [Türkiye İş Bankası Machine Learning Challenge #2](https://www.kaggle.com/c/ml-challenge-turkiye-is-bankasi-2/overview)
 
@@ -6,7 +6,7 @@ A submission for [Türkiye İş Bankası Machine Learning Challenge #2](https:/
 **members:** [@mustafahakkoz](https://github.com/mustafahakkoz)
 **rank:** 50/94
 **score (RMSLE):** 0.17970
-**dataset:** [Transaction Amounts](https://www.kaggle.com/c/ml-challenge-turkiye-is-bankasi-2/data) A realistic dataset to predict future total transaction amount per sector for regression tasks. Since there are very few attributes, mining external features are encouraged such as inflation data, salary payment days, exchange rates, seasonal temperature ...
+**dataset:** [Transaction Amount](https://www.kaggle.com/c/ml-challenge-turkiye-is-bankasi-2/data) A realistic dataset to predict future total transaction amount per sector for regression tasks. Since there are very few attributes, mining external features are encouraged such as inflation data, salary payment days, exchange rates, seasonal temperature ...
 
 - training dataset ( 200.16 MB, 3.53M rows, 8 cols)
 
@@ -18,27 +18,27 @@ Implementation details can be found in notebooks.
 
 #### Online Notebooks:
 
-1. a. [EDA and preprocessing](https://www.kaggle.com/areukolateamleader/isbankasi-eda-preprocessing)
-   b. [EDA and preprocessing alternative (without scaling)](https://www.kaggle.com/areukolateamleader/isbankasi-eda-preprocess-noscaling)
+1. a. [EDA and preprocessing](https://www.kaggle.com/areukolateamleader/isbankasi-eda-preprocessing)  
+   b. [EDA and preprocessing alternative (without scaling)](https://www.kaggle.com/areukolateamleader/isbankasi-eda-preprocess-noscaling)  
    c. [EDA and preprocessing alternative (without scaling and feature elimination)](https://www.kaggle.com/areukolateamleader/isbankasi-eda-preprocess-noscaling-noelimination)
 
-2. a. [Overfitting XGBoost model](https://www.kaggle.com/hakkoz/isbankasi-overfit-xgboost)
+2. a. [Overfitting XGBoost model](https://www.kaggle.com/hakkoz/isbankasi-overfit-xgboost)  
    b. [Overfitting CatBoost model](https://www.kaggle.com/hakkoz/isbankasi-overfit-catboost)
 
-3. a. [RandomizedSearch with XGBoost](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-xgboost)
-   b. [RandomizedSearch with CatBoost](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-catboost)
-   c. [RandomizedSearchwith XGBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-xgboost-expanded)
-   d. [RandomizedSearchwith CatBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-catboost-expanded)
+3. a. [RandomizedSearch with XGBoost](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-xgboost)  
+   b. [RandomizedSearch with CatBoost](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-catboost)  
+   c. [RandomizedSearchwith XGBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-xgboost-expanded)  
+   d. [RandomizedSearchwith CatBoost (Expanded search space)](https://www.kaggle.com/hakkoz/isbankasi-randomizedsearch-catboost-expanded)  
    e. [RandomizedSearchwith LightGBM (Expanded search space)](https://www.kaggle.com/areukolateamleader/isbankasi-randomizedsearch-lightgbm-expanded)
 
-4. a. [BayesianOptimization with XGBoost](https://www.kaggle.com/hakkoz/isbankasi-bayesianoptimization-xgboost/)
+4. a. [BayesianOptimization with XGBoost](https://www.kaggle.com/hakkoz/isbankasi-bayesianoptimization-xgboost/)  
    b. [BayesianOptimization with XGBoost (Expanded search space)](https://www.kaggle.com/areukolateamleader/isbankasi-bayesianoptimization-xgboost-expanded)
 
 ---
 
 #### Repo Content and Implementation Steps:
 
-[**1.isbankasi-eda-preprocessing.ipynb**]()
+[**1.isbankasi-eda-preprocessing.ipynb**](https://github.com/mustafahakkoz/Predict_Transaction_Amount/blob/main/1.isbankasi-eda-preprocessing.ipynb)
 
 - Binning ordinal columns by KBinsDiscretizer
 
@@ -61,5 +61,5 @@ Implementation details can be found in notebooks.
 - Feature elimination by PCA on external data columns (17+2 -> 3)
 
 - Analyzing data by [pps (predictive power score)](https://github.com/8080labs/ppscore)
-  
-  
+
+[**1.isbankasi-eda-preprocessing.ipynb**](https://github.com/mustafahakkoz/Predict_Transaction_Amount/blob/main/1.isbankasi-eda-preprocessing.ipynb)
