@@ -2,10 +2,10 @@
 
 A submission for [Türkiye İş Bankası Machine Learning Challenge #2](https://www.kaggle.com/c/ml-challenge-turkiye-is-bankasi-2/overview)
 
-**team:** -
-**members:** [@mustafahakkoz](https://github.com/mustafahakkoz)
-**rank:** 50/94
-**score (RMSLE):** 0.17970
+**team:** -  
+**members:** [@mustafahakkoz](https://github.com/mustafahakkoz)  
+**rank:** 50/94  
+**score (RMSLE):** 0.17970  
 **dataset:** [Transaction Amount](https://www.kaggle.com/c/ml-challenge-turkiye-is-bankasi-2/data) A realistic dataset to predict future total transaction amount per sector for regression tasks. Since there are very few attributes, mining external features are encouraged such as inflation data, salary payment days, exchange rates, seasonal temperature ...
 
 - training dataset ( 200.16 MB, 3.53M rows, 8 cols)
