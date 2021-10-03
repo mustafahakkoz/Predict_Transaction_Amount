@@ -115,5 +115,3 @@ Implementation details can be found in notebooks.
 - We focused on tuning models. Instead, we could have implement more extensive preprocessing (creating more features, more data mining, advanced null handling, more feature elimination etc.) to improve our scores.
 
 - We should have try autoML techniques.
-
-- 
