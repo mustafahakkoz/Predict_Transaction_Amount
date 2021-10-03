@@ -1,6 +1,6 @@
 # Predict Transaction Amount
 
-A submission for [Türkiye İş Bankası Machine Learning Challenge #2](https://www.kaggle.com/c/ml-challenge-turkiye-is-bankasi-2/overview)
+A submission for [Türkiye İş Bankası Machine Learning Challenge #2](https://www.kaggle.com/c/ml-challenge-turkiye-is-bankasi-2/overview).
 
 **team:** -  
 **members:** [@mustafahakkoz](https://github.com/mustafahakkoz)  
