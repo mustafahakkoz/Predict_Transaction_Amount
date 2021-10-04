@@ -10,7 +10,7 @@ A submission for [Türkiye İş Bankası Machine Learning Challenge #2](https:/
 
 - training dataset ( 200.16 MB, 3.53M rows, 8 cols)
 
-- 2 testing datasets ( 11.53 MB, 220K rows, 8 cols)
+- testing dataset ( 11.53 MB, 220K rows, 8 cols)
 
 Implementation details can be found in notebooks.
 
